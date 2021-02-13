@@ -3,9 +3,9 @@ def find_noob():
 
     :returns: Eric, obvious
 
-This is a paragraph that contains `a link`_.
+reStructuredText documentation: `link`_.
 
-.. _a link: https://domain.invalid/
+.. _link: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
     """
     return "Eric"
 
