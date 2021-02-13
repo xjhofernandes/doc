@@ -153,6 +153,10 @@
     <span class="sd">&quot;&quot;&quot; Usually the return is &#39;Eric&#39; </span>
 
 <span class="sd">    :returns: Eric, obvious</span>
+
+<span class="sd">This is a paragraph that contains `a link`_.</span>
+
+<span class="sd">.. _a link: https://domain.invalid/</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="s2">&quot;Eric&quot;</span></div>
 
@@ -179,14 +183,16 @@
     <span class="k">return</span> <span class="s2">&quot;Teste :)&quot;</span>        </div>
 
 <div class="viewcode-block" id="binary_search"><a class="viewcode-back" href="../index.html#main.binary_search">[docs]</a><span class="k">def</span> <span class="nf">binary_search</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot; In a nutshell, this search algorithm takes advantage of a collection of elements that is already sorted by ignoring half of the elements after just one comparison. </span>
+    <span class="sd">&quot;&quot;&quot; </span>
+<span class="sd">In a nutshell, this search algorithm takes advantage of a collection of elements that is already sorted by ignoring half of the elements after just one comparison. </span>
 
-<span class="sd">    :param arr: Integer Array</span>
-<span class="sd">    :param x: Integer number</span>
+<span class="sd">:param arr: Integer Array</span>
+<span class="sd">:param x: Integer number</span>
 
-<span class="sd">    :returns: If the number really exist in array the function will return index of the number in integer array. Else, the function will return -1.</span>
-<span class="sd">   </span>
+<span class="sd">:returns: If the number really exist in array, the function will return index of the number in integer array. Else, the function will return -1.</span>
+
 <span class="sd">    &quot;&quot;&quot;</span>    
+
     <span class="n">low</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">high</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
     <span class="n">mid</span> <span class="o">=</span> <span class="mi">0</span>

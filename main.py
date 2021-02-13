@@ -2,6 +2,10 @@ def find_noob():
     """ Usually the return is 'Eric' 
 
     :returns: Eric, obvious
+
+This is a paragraph that contains `a link`_.
+
+.. _a link: https://domain.invalid/
     """
     return "Eric"
 
@@ -28,14 +32,16 @@ def new_function():
     return "Teste :)"        
 
 def binary_search(arr, x):
-    """ In a nutshell, this search algorithm takes advantage of a collection of elements that is already sorted by ignoring half of the elements after just one comparison. 
+    """ 
+In a nutshell, this search algorithm takes advantage of a collection of elements that is already sorted by ignoring half of the elements after just one comparison. 
 
-    :param arr: Integer Array
-    :param x: Integer number
+:param arr: Integer Array
+:param x: Integer number
 
-    :returns: If the number really exist in array the function will return index of the number in integer array. Else, the function will return -1.
-   
+:returns: If the number really exist in array, the function will return index of the number in integer array. Else, the function will return -1.
+
     """    
+
     low = 0
     high = len(arr) - 1
     mid = 0
