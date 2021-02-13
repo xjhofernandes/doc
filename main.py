@@ -20,6 +20,12 @@ def search_name(name):
     else:
         return "Sorry, i can't find."
 
+def new_function():
+    """ New Function to test in netlify Deploy ;)
+
+    :returns: PENTAKILL
+    """
+    return "Teste :)"        
 
 print(find_noob())
 search_name('Teste')
