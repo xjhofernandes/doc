@@ -12,3 +12,7 @@ pip install sphinx-rtd-theme
 cd docs
 make html
 ```
+
+Online version link: 
+
+https://automagic-doc.netlify.app/
